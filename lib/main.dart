@@ -58,10 +58,10 @@ class _MyHomePageState extends State<MyHomePage> {
       if (operand == "+") {
         _output = (num1 + num2).toString();
       }
-      if (operand == "-") {
+      if (operand == "*") {
         _output = (num1 - num2).toString();
       }
-      if (operand == "X") {
+      if (operand == "-") {
         _output = (num1 * num2).toString();
       }
       if (operand == "/") {
