@@ -75,11 +75,12 @@ class _MyHomePageState extends State<MyHomePage> {
       _output = _output + buttonText;
     }
 
-    print(_output);
+
 
     setState(() {
       output = double.parse(_output).toStringAsFixed(2);
     });
+    print(_output);
   }
 
   Widget buildButton(String buttonText) {
